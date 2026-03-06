@@ -25,6 +25,10 @@ class Widgets_Demo {
     public function load_dependencies() {
         require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-basic-widget.php");
     }
+
+    public function initialize() {
+        new Basic_Widget();
+    }
 }
 
 new Widgets_Demo();
