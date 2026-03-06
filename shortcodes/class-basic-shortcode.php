@@ -6,6 +6,11 @@ class WD_Basic_ShortCode {
     }
 
     function render($attributes) {
+        $defaults = [
+            'color' => 'blue',
+            'font_size' => '32px'
+        ];
+        $attributes = shortcode_atts($defaults, $attributes); // Merge user attributes with defaults
         return "<h2 style='color: $attributes[color]; font-size: $attributes[font_size];'>Hello World!!!!</h2>";
     }
 }
