@@ -24,10 +24,12 @@ class Widgets_Demo {
 
     public function load_dependencies() {
         require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-basic-widget.php");
+        require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-quick-links-widget.php");
     }
 
     public function initialize() {
         new Basic_Widget();
+        new WD_Quick_Links();
     }
 }
 
