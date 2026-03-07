@@ -29,8 +29,10 @@ class Widgets_Demo {
         require_once(WD_PLUGIN_PATH . "shortcodes/class-basic-shortcode.php");
         require_once(WD_PLUGIN_PATH . "shortcodes/class-nested-shortcode.php");
         require_once(WD_PLUGIN_PATH . "shortcodes/class-button-shortcode.php");
+        require_once(WD_PLUGIN_PATH . "shortcodes/class-youtube-shortcode.php");
     }
 
+    // Initialize widgets and shortcodes
     public function initialize() {
         new Basic_Widget();
         new WD_Quick_Links();
@@ -38,6 +40,7 @@ class Widgets_Demo {
         new WD_Basic_ShortCode();
         new WD_Nested_ShortCode();
         new WD_Button_Shortcode();
+        new WD_Youtube_Shortcode();
     }
 }
 
