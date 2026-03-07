@@ -34,3 +34,6 @@ class WD_Nested_Shortcode {
 
 // Frontend usage example:
 // [alertbox type="error"]This is an error message![/alertbox]
+
+// Nested example:
+// [alertbox type="success"]This is a success message with a button! [button url="https://example.com" text="Learn More" style="success"][/alertbox]

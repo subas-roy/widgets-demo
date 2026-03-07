@@ -28,6 +28,7 @@ class Widgets_Demo {
         require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-stats-widget.php");
         require_once(WD_PLUGIN_PATH . "shortcodes/class-basic-shortcode.php");
         require_once(WD_PLUGIN_PATH . "shortcodes/class-nested-shortcode.php");
+        require_once(WD_PLUGIN_PATH . "shortcodes/class-button-shortcode.php");
     }
 
     public function initialize() {
@@ -36,6 +37,7 @@ class Widgets_Demo {
         new WD_Stats_Widget();
         new WD_Basic_ShortCode();
         new WD_Nested_ShortCode();
+        new WD_Button_Shortcode();
     }
 }
 
