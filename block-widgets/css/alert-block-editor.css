@@ -1,0 +1,8 @@
+/* Editor-specific styles for Alert Block */
+.wp-block[data-type="widget-demo/alert-block"] .alert-block {
+    margin: 0;
+}
+
+.wp-block[data-type="widget-demo/alert-block"] {
+    margin: 20px 0;
+}
