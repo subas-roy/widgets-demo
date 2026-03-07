@@ -15,5 +15,5 @@ class WD_Basic_ShortCode {
     }
 }
 
-// Frontend
+// Frontend usage example:
 // [helloworld color='red' font_size='20px']

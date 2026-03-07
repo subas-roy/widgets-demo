@@ -27,6 +27,7 @@ class Widgets_Demo {
         require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-quick-links-widget.php");
         require_once(WD_PLUGIN_PATH . "dashboard-widgets/class-stats-widget.php");
         require_once(WD_PLUGIN_PATH . "shortcodes/class-basic-shortcode.php");
+        require_once(WD_PLUGIN_PATH . "shortcodes/class-nested-shortcode.php");
     }
 
     public function initialize() {
@@ -34,6 +35,7 @@ class Widgets_Demo {
         new WD_Quick_Links();
         new WD_Stats_Widget();
         new WD_Basic_ShortCode();
+        new WD_Nested_ShortCode();
     }
 }
 
